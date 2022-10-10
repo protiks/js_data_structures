@@ -23,13 +23,12 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-      
-
+          linkedlist
         </div>
       </main>
 
       <footer className={styles.footer}>
-     
+
       </footer>
     </div>
   )
