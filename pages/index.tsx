@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import LoginButton from '../components/LoginButton'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -23,7 +24,7 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          linkedlist
+          <LoginButton />
         </div>
       </main>
 
